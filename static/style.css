@@ -10,7 +10,10 @@ body {
     font-size: 100%;
     background: #F1F1F1;
 }
-
+iframe{
+    height: 100vh;
+    width: 100vw;
+}
 *, html {
     --primaryGradient: linear-gradient(93.12deg, #a52a2a 0.52%, #fa0f0f 100%);
     --secondaryGradient: linear-gradient(268.91deg, #a52a2a -2.14%, #fa0f0f 99.69%);
