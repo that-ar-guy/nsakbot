@@ -1,83 +1,135 @@
 {
   "intents": [
     {
-      "tag": "greeting",
+      "tag": "location",
       "patterns": [
-        "Hi",
-        "Hey",
-        "How are you",
-        "Is anyone there?",
-        "Hello",
-        "Good day"
+        "Where is the college located?",
+        "Can you tell me the address of the college?",
+        "What is the location of the college?"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "The college is located at: #16-4-1, Subedar Ameer Ali Khan Road, New Malakpet, Hyderabad – 500024. You can contact us at +91 9849650796, +91 9885360757, +91 9848058830, or 040-24561118. Email: info@nsakcet.ac.in / nsakcet@gmail.com."
       ]
     },
     {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "tag": "contact",
+      "patterns": [
+        "What are the contact details of the college?",
+        "How can I contact the college?",
+        "What is the phone number of the college?"
+      ],
       "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
+        "You can contact the college at +91 9849650796, +91 9885360757, +91 9848058830, or 040-24561118. Email: info@nsakcet.ac.in / nsakcet@gmail.com."
       ]
     },
     {
-      "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
+      "tag": "admission_process",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "What is the admission process for undergraduate courses?",
+        "How do I apply for UG courses?",
+        "What is the UG admission procedure?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "The admission process for undergraduate courses can be found on the Undergraduate Department page: https://nsakcet.ac.in/ug-department/"
       ]
     },
     {
-      "tag": "payments",
+      "tag": "pg_admission",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "What is the admission process for postgraduate courses?",
+        "How do I apply for PG courses?",
+        "What is the PG admission procedure?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "The admission process for postgraduate courses can be found on the Postgraduate Department page: https://nsakcet.ac.in/pg-department/"
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "eligibility",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "What is the eligibility criteria for admission?",
+        "What qualifications are required to apply?",
+        "What are the admission requirements?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Eligibility criteria vary by program. Visit the respective department pages for details: Undergraduate - https://nsakcet.ac.in/ug-department/, Postgraduate - https://nsakcet.ac.in/pg-department/"
       ]
     },
     {
-      "tag": "funny",
+      "tag": "courses",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "What courses are offered at the college?",
+        "Can you list the courses available?",
+        "What programs are available?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "Details about courses can be found on the Academics page: https://nsakcet.ac.in/academics/"
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "What is the fee structure for each course?",
+        "How much does it cost to study here?",
+        "What are the fees for UG and PG courses?"
+      ],
+      "responses": [
+        "The fee structure is ₹73,000 per year for undergraduate courses and ₹50,000 per year for postgraduate courses."
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "Are there any scholarships available?",
+        "Does the college provide scholarships?",
+        "Can I get a scholarship?"
+      ],
+      "responses": [
+        "Scholarships may be available. Contact the college administration for more information."
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "What facilities are available on campus?",
+        "Does the college have Wi-Fi?",
+        "Are there labs and libraries available?"
+      ],
+      "responses": [
+        "The college offers Wi-Fi, a well-equipped library, and advanced labs for various departments."
+      ]
+    },
+    {
+      "tag": "clubs",
+      "patterns": [
+        "What clubs and student organizations are present in the college?",
+        "Are there any student societies?",
+        "Does the college have student clubs?"
+      ],
+      "responses": [
+        "The college has societies like IEEE and IEOM and student clubs such as Epoch (AI/ML Club) and CyberElites (Cybersecurity Club)."
+      ]
+    },
+    {
+      "tag": "cultural_fest",
+      "patterns": [
+        "Are there any cultural or technical fests conducted?",
+        "What events does the college organize?",
+        "Does the college have an annual fest?"
+      ],
+      "responses": [
+        "Yes, the college conducts an annual cultural fest called Zauq-e-Nawab in January."
+      ]
+    },
+    {
+      "tag": "placements",
+      "patterns": [
+        "What are the placement opportunities at the college?",
+        "Does the college offer placements?",
+        "What companies visit for placements?"
+      ],
+      "responses": [
+        "Placement details can be found on the Training and Placement page: https://nsakcet.ac.in/training-placement/"
       ]
     }
   ]
