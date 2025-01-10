@@ -1,6 +1,23 @@
 {
   "intents": [
     {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "How are you?"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I help you with?",
+        "Hey! Feel free to ask any questions about the college."
+      ]
+    },
+    {
       "tag": "location",
       "patterns": [
         "Where is the college located?",
@@ -60,10 +77,12 @@
       "patterns": [
         "What courses are offered at the college?",
         "Can you list the courses available?",
-        "What programs are available?"
+        "What programs are available?",
+        "What academic programs does the college provide?",
+        "What are the courses available for students?"
       ],
       "responses": [
-        "Details about courses can be found on the Academics page: https://nsakcet.ac.in/academics/"
+        "The college offers a variety of undergraduate and postgraduate programs, including:\n\n- Artificial Intelligence and Machine Learning (AI/ML)\n- Internet of Things (IoT)\n- Information Technology (IT)\n- Computer Science and Engineering (CSE)\n- Data Science (DS)\n- Electronics and Communication Engineering (ECE)\n- Electrical and Electronics Engineering (EEE)\n\nFor more details, visit the Academics page: https://nsakcet.ac.in/academics/"
       ]
     },
     {
@@ -130,6 +149,21 @@
       ],
       "responses": [
         "Placement details can be found on the Training and Placement page: https://nsakcet.ac.in/training-placement/"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "Bye",
+        "See you later",
+        "Talk to you later",
+        "Take care"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Feel free to reach out if you have more questions.",
+        "Bye! Take care and let us know if you need further assistance."
       ]
     }
   ]
